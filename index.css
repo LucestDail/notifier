@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+
+body{
+    font-size: 20px;
+    color: black;
+    transition: color 1s ease-in-out;
+}
+
+.clicked{
+    color: white;
+}
+
+.form,
+.greetings{
+    display:none;
+}
+.showing{
+    display:block;
+}
