@@ -44,6 +44,10 @@ READ IT FIRST AND ANYTHING YOU WOULD LIKE TO CONTACT ME, MAIL IT TO DHTMDGUSSKSM
     4-1. 2020. 7. 17. 12:30(KR)
         4-1-1. Add
                 A. Basically function and utility, html, css has been created
+    4-2. 2020. 7. 17. 18:00(KR)
+        4-1-1. Add
+                A. some images, html, javascript and css code for make utility
+                (it gonna be update soon, especially css)
 </pre></h3>
 <br>
 <h3><pre>
