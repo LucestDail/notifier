@@ -3,26 +3,54 @@
 <head>
     <title>Something</title>
     <meta charset="utf-8" />
+            <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
+    
+    
+    <script src="bg.js"></script>
+    
+    
+    <div class="conttop">
+        <span class="js_weather"></span>
+        <script src="weather.js"></script>
+    </div>
+    
+    
     <div class="js-clock">
         <h1>00:00</h1>
+        <script src="clock.js"></script>
     </div>
-    <form class="js-form form">
-        <input type="text" placeholder="What is your name?">
-    </form>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="write a to do">
-    </form>
-    <ul class="js-toDoList">
-    </ul>
-    <span class="js_weather"></span>
-    <h4 class="js-greetings greetings"></h4>
-    <script src="clock.js"></script>
-    <script src="gretting.js"></script>
-    <script src="todo.js"></script>
-    <script src="bg.js"></script>
-    <script src="weather.js"></script>
+    
+    
+    <div class="contmiddle">
+        
+        
+        <div class="contname">
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?">
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        <script src="gretting.js"></script>
+        </div>
+        
+        
+        <div class="conttodo">
+        <form class="js-toDoForm toDoForm">
+            <input type="text" placeholder="write to do">
+        </form>
+        <ul class="js-toDoList toDoList"></ul>
+        <script src="todo.js"></script>
+        </div>
+        
+        
+    </div>
+    <div class="contbottom">
+        
+    </div>
+    
 </body>
 </html>

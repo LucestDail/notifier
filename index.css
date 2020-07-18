@@ -1,26 +1,20 @@
-body{
-    background-color: #2C3E50;
+@charset "utf-8";
+
+/*
+* 기본적인 루트 세팅, 크기 조정
+* 색상은 임의로 편성 및 사용자 정의에 따라 변경 편성 가능
+*/
+
+:root{
+    --color-text : #FFFFFF;
 }
 
 body{
-    font-size: 20px;
-    color: black;
+    margin: 0;
+    font-family: '맑은 고딕','Apple SD Gothic Neo',sans-serif;
+    background-color: #2C3E50;
     transition: color 1s ease-in-out;
 }
-
-.clicked{
-    color: white;
-}
-
-.form,
-.greetings{
-    display:none;
-}
-.showing{
-    display:block;
-}
-
-
 
 @keyframes fadeIn{
     from{
@@ -40,4 +34,103 @@ body{
     height: 100%;
     z-index: -1;
     animation: fadeIn 2s linear;
+}
+
+
+.conttop{
+    text-align:right;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+.js-clock{
+    text-align: center;
+    margin: 0;
+    font-size: 4vw;
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: none;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    color: var(--color-text);
+}
+
+
+.contmiddle{
+    text-align: center;
+}
+
+
+
+.form,
+.greetings{
+    display:none;
+}
+.showing{
+    display:block;
+}
+
+.form input[type="text"]{
+    background: transparent;
+    border:none;
+    font-weight: 700;
+    font-size: 2vw;
+}
+.form ::placeholder{
+    color: #FFFFFF;
+}
+
+
+.js-toDoList{
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 2vw;
+}
+
+.toDoForm input[type="text"]{
+    background: transparent;
+    border:none;
+    font-size: 2vw;
+}
+
+.toDoForm ::placeholder{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.contmiddle
+.contname
+.greetings{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.contmiddle
+.conttodo
+.toDoList{
+    font-weight: 700;
+    text-align: left;
+    margin-left: 35vw;
+    font-weight: bold;
+    padding: 0;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.contmiddle
+.conttodo
+.toDoList button{
+ 
+    color: #FFFFFF;
+    font-weight: 700;
+    padding-right: 2vw;
+    background: transparent;
+    border-color: transparent;
 }
