@@ -3,21 +3,18 @@
 
 ## Introduction 
 
-This stuff has been built using vanillaJS(means "raw javascript :)",html and css.
-It is so-called "Notify you work" which mean you can use it as scheduler.
+This stuff is my test project for study javascript and i will call it "Notifier" which mean it can be notify your scheduler and more, it can be desk clock :)
 
 
 ## DEMO
 
-This project provides a demo version using GitHub hosting.
-You can access with this link  
+DEMO version using GitHub hosting and You can access with this link  
 [Link](https://lucestdail.github.io/notifier/)
 
 
 ## How to run this stuff
 
-This Project is works with javascript.
-You don't have to prepare for running this stuff
+It works with javascript and nothing to prepare for running this stuff
 
 
 ## About this stuff
@@ -28,7 +25,7 @@ Key features include:
 - Adding to do list
 - Notify your location, and weather
 - Change background image change when you refresh your url
-- Timer
+- Clock
 
 The following bugs were fixed:
 
